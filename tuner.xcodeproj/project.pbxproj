@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6911A3182AF3C9BA003443ED /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6911A3172AF3C9BA003443ED /* Input.swift */; };
+		69272B162AF13052003FA23A /* MicrophoneServiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69272B152AF13052003FA23A /* MicrophoneServiece.swift */; };
 		69F7BC4F2AE9599200A51204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F7BC4E2AE9599200A51204 /* AppDelegate.swift */; };
 		69F7BC512AE9599200A51204 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F7BC502AE9599200A51204 /* SceneDelegate.swift */; };
 		69F7BC532AE9599200A51204 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F7BC522AE9599200A51204 /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6911A3172AF3C9BA003443ED /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
+		69272B152AF13052003FA23A /* MicrophoneServiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneServiece.swift; sourceTree = "<group>"; };
 		69F7BC4B2AE9599100A51204 /* tuner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tuner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69F7BC4E2AE9599200A51204 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69F7BC502AE9599200A51204 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				69F7BC4E2AE9599200A51204 /* AppDelegate.swift */,
 				69F7BC502AE9599200A51204 /* SceneDelegate.swift */,
 				69F7BC522AE9599200A51204 /* ViewController.swift */,
+				69272B152AF13052003FA23A /* MicrophoneServiece.swift */,
+				6911A3172AF3C9BA003443ED /* Input.swift */,
 				69F7BC572AE9599400A51204 /* Assets.xcassets */,
 				69F7BC592AE9599400A51204 /* LaunchScreen.storyboard */,
 				69F7BC5C2AE9599400A51204 /* Info.plist */,
@@ -80,6 +86,8 @@
 			dependencies = (
 			);
 			name = tuner;
+			packageProductDependencies = (
+			);
 			productName = tuner;
 			productReference = 69F7BC4B2AE9599100A51204 /* tuner.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +116,8 @@
 				Base,
 			);
 			mainGroup = 69F7BC422AE9599100A51204;
+			packageReferences = (
+			);
 			productRefGroup = 69F7BC4C2AE9599100A51204 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -134,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6911A3182AF3C9BA003443ED /* Input.swift in Sources */,
 				69F7BC532AE9599200A51204 /* ViewController.swift in Sources */,
+				69272B162AF13052003FA23A /* MicrophoneServiece.swift in Sources */,
 				69F7BC4F2AE9599200A51204 /* AppDelegate.swift in Sources */,
 				69F7BC512AE9599200A51204 /* SceneDelegate.swift in Sources */,
 			);
@@ -204,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -258,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,6 +295,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +324,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
