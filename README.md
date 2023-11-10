@@ -15,4 +15,5 @@
 ## Ресурсы:
 Для измерения высоты звука была использована библиотека [Tuna.](https://github.com/alladinian/Tuna)
 
-
+## JIRA:
+[https://marsalovv.atlassian.net/jira/software/projects/KAN/boards/1](https://marsalovv.atlassian.net/jira/software/projects/KAN/boards/1)
