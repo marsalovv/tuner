@@ -7,22 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6911A3182AF3C9BA003443ED /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6911A3172AF3C9BA003443ED /* Input.swift */; };
-		69272B162AF13052003FA23A /* MicrophoneServiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69272B152AF13052003FA23A /* MicrophoneServiece.swift */; };
+		693A5F942AFE7C6B00D58DC3 /* Tuna in Frameworks */ = {isa = PBXBuildFile; productRef = 693A5F932AFE7C6B00D58DC3 /* Tuna */; };
 		69F7BC4F2AE9599200A51204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F7BC4E2AE9599200A51204 /* AppDelegate.swift */; };
 		69F7BC512AE9599200A51204 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F7BC502AE9599200A51204 /* SceneDelegate.swift */; };
-		69F7BC532AE9599200A51204 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F7BC522AE9599200A51204 /* ViewController.swift */; };
 		69F7BC582AE9599400A51204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F7BC572AE9599400A51204 /* Assets.xcassets */; };
 		69F7BC5B2AE9599400A51204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F7BC592AE9599400A51204 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6911A3172AF3C9BA003443ED /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
-		69272B152AF13052003FA23A /* MicrophoneServiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneServiece.swift; sourceTree = "<group>"; };
 		69F7BC4B2AE9599100A51204 /* tuner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tuner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69F7BC4E2AE9599200A51204 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69F7BC502AE9599200A51204 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		69F7BC522AE9599200A51204 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		69F7BC572AE9599400A51204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69F7BC5A2AE9599400A51204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69F7BC5C2AE9599400A51204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				693A5F942AFE7C6B00D58DC3 /* Tuna in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +56,6 @@
 			children = (
 				69F7BC4E2AE9599200A51204 /* AppDelegate.swift */,
 				69F7BC502AE9599200A51204 /* SceneDelegate.swift */,
-				69F7BC522AE9599200A51204 /* ViewController.swift */,
-				69272B152AF13052003FA23A /* MicrophoneServiece.swift */,
-				6911A3172AF3C9BA003443ED /* Input.swift */,
 				69F7BC572AE9599400A51204 /* Assets.xcassets */,
 				69F7BC592AE9599400A51204 /* LaunchScreen.storyboard */,
 				69F7BC5C2AE9599400A51204 /* Info.plist */,
@@ -84,9 +77,11 @@
 			buildRules = (
 			);
 			dependencies = (
+				691A15A12AFE884E0083C15F /* PBXTargetDependency */,
 			);
 			name = tuner;
 			packageProductDependencies = (
+				693A5F932AFE7C6B00D58DC3 /* Tuna */,
 			);
 			productName = tuner;
 			productReference = 69F7BC4B2AE9599100A51204 /* tuner.app */;
@@ -117,6 +112,9 @@
 			);
 			mainGroup = 69F7BC422AE9599100A51204;
 			packageReferences = (
+				693A5F922AFE7C6B00D58DC3 /* XCRemoteSwiftPackageReference "Tuna" */,
+				693A5F952AFE7D3B00D58DC3 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				693A5F962AFE872600D58DC3 /* XCRemoteSwiftPackageReference "SwiftLint" */,
 			);
 			productRefGroup = 69F7BC4C2AE9599100A51204 /* Products */;
 			projectDirPath = "";
@@ -144,15 +142,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6911A3182AF3C9BA003443ED /* Input.swift in Sources */,
-				69F7BC532AE9599200A51204 /* ViewController.swift in Sources */,
-				69272B162AF13052003FA23A /* MicrophoneServiece.swift in Sources */,
 				69F7BC4F2AE9599200A51204 /* AppDelegate.swift in Sources */,
 				69F7BC512AE9599200A51204 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		691A15A12AFE884E0083C15F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 691A15A02AFE884E0083C15F /* SwiftLintPlugin */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		69F7BC592AE9599400A51204 /* LaunchScreen.storyboard */ = {
@@ -360,6 +362,46 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		693A5F922AFE7C6B00D58DC3 /* XCRemoteSwiftPackageReference "Tuna" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alladinian/Tuna#estimation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.1;
+			};
+		};
+		693A5F952AFE7D3B00D58DC3 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		693A5F962AFE872600D58DC3 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		691A15A02AFE884E0083C15F /* SwiftLintPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 693A5F962AFE872600D58DC3 /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintPlugin";
+		};
+		693A5F932AFE7C6B00D58DC3 /* Tuna */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 693A5F922AFE7C6B00D58DC3 /* XCRemoteSwiftPackageReference "Tuna" */;
+			productName = Tuna;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 69F7BC432AE9599100A51204 /* Project object */;
 }
