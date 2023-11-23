@@ -1,9 +1,3 @@
-//
-//  AppDelegate.swift
-//  tuner
-//
-//  Created by Sergey Marsalov on 25.10.2023.
-//
 
 import UIKit
 
