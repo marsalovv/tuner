@@ -12,6 +12,7 @@
 		698799332B06329D00854214 /* MusicInstrumentsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698799322B06329D00854214 /* MusicInstrumentsProtocol.swift */; };
 		698799352B0C7CAF00854214 /* CurrentStringModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698799342B0C7CAE00854214 /* CurrentStringModel.swift */; };
 		6987993B2B0E72E900854214 /* GuitarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6987993A2B0E72E900854214 /* GuitarModel.swift */; };
+		69CDE2202B0FAA6200DD863F /* UIColor+InitFromCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CDE21F2B0FAA6200DD863F /* UIColor+InitFromCondition.swift */; };
 		69F7BC4F2AE9599200A51204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F7BC4E2AE9599200A51204 /* AppDelegate.swift */; };
 		69F7BC512AE9599200A51204 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F7BC502AE9599200A51204 /* SceneDelegate.swift */; };
 		69F7BC582AE9599400A51204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F7BC572AE9599400A51204 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		698799322B06329D00854214 /* MusicInstrumentsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicInstrumentsProtocol.swift; sourceTree = "<group>"; };
 		698799342B0C7CAE00854214 /* CurrentStringModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentStringModel.swift; sourceTree = "<group>"; };
 		6987993A2B0E72E900854214 /* GuitarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarModel.swift; sourceTree = "<group>"; };
+		69CDE21F2B0FAA6200DD863F /* UIColor+InitFromCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+InitFromCondition.swift"; sourceTree = "<group>"; };
 		69F7BC4B2AE9599100A51204 /* tuner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tuner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69F7BC4E2AE9599200A51204 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69F7BC502AE9599200A51204 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 				69F7BC572AE9599400A51204 /* Assets.xcassets */,
 				69F7BC592AE9599400A51204 /* LaunchScreen.storyboard */,
 				69F7BC5C2AE9599400A51204 /* Info.plist */,
+				69CDE21F2B0FAA6200DD863F /* UIColor+InitFromCondition.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				698799352B0C7CAF00854214 /* CurrentStringModel.swift in Sources */,
 				69F7BC4F2AE9599200A51204 /* AppDelegate.swift in Sources */,
 				6987992E2B02928A00854214 /* TunerViewModel.swift in Sources */,
+				69CDE2202B0FAA6200DD863F /* UIColor+InitFromCondition.swift in Sources */,
 				69F7BC512AE9599200A51204 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
