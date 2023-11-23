@@ -41,10 +41,15 @@ final class Tuner: TunerProtocol, PitchEngineDelegate {
         
         if range.contains(currentString.currentFrequency) {
             currentString.Condition = .equals
-        }else if currentString.currentFrequency > currentString.needFrequency + delta {
+            return
+        }
+        if currentString.currentFrequency > currentString.needFrequency + delta {
             currentString.Condition = .down
-        }else if currentString.currentFrequency < currentString.needFrequency - delta{
+            return
+        }
+        if currentString.currentFrequency < currentString.needFrequency - delta {
             currentString.Condition = .up
+            return
         }
     }
     

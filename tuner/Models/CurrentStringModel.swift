@@ -1,6 +1,9 @@
 
 enum Condition {
-    case up, down, equals, no
+    case up
+    case down
+    case equals
+    case no
 }
 
 struct CurrentString {
