@@ -12,3 +12,4 @@ struct CurrentString {
     var needFrequency: Double = 0.00
     var Condition: Condition = .no
 }
+

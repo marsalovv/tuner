@@ -22,11 +22,11 @@ final class Tuner: TunerProtocol, PitchEngineDelegate {
     func start(stringId: Int) {
         guard stringId < instrument.strings.count else {return}
         let string = instrument.strings[stringId - 1]
-        currentString.needFrequency = string.pitch
+        currentString.needFrequency = string.frequency
         
         pitchEngine.start()
     }
-    
+
     
     func getData(completion: (CurrentString) -> Void) {
         completion(currentString)

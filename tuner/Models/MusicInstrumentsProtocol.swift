@@ -1,5 +1,5 @@
 
-typealias StringInstrument = (name: String, pitch: Double)
+typealias StringInstrument = (name: String, frequency: Double)
 
 protocol MusicInstrumentsProtocol {
     var name: String {get}
